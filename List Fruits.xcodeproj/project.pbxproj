@@ -14,6 +14,7 @@
 		AF464FE81F6815DC00F34D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF464FE61F6815DC00F34D92 /* LaunchScreen.storyboard */; };
 		AF464FF31F6815DC00F34D92 /* List_FruitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464FF21F6815DC00F34D92 /* List_FruitsTests.swift */; };
 		AF464FFE1F6815DC00F34D92 /* List_FruitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF464FFD1F6815DC00F34D92 /* List_FruitsUITests.swift */; };
+		AF46500C1F68168900F34D92 /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46500B1F68168900F34D92 /* FruitsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AF464FF91F6815DC00F34D92 /* List FruitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "List FruitsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF464FFD1F6815DC00F34D92 /* List_FruitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_FruitsUITests.swift; sourceTree = "<group>"; };
 		AF464FFF1F6815DC00F34D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF46500B1F68168900F34D92 /* FruitsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AF464FDD1F6815DB00F34D92 /* AppDelegate.swift */,
 				AF464FDF1F6815DB00F34D92 /* ViewController.swift */,
+				AF46500B1F68168900F34D92 /* FruitsTableViewController.swift */,
 				AF464FE11F6815DC00F34D92 /* Main.storyboard */,
 				AF464FE41F6815DC00F34D92 /* Assets.xcassets */,
 				AF464FE61F6815DC00F34D92 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF464FE01F6815DB00F34D92 /* ViewController.swift in Sources */,
+				AF46500C1F68168900F34D92 /* FruitsTableViewController.swift in Sources */,
 				AF464FDE1F6815DB00F34D92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
